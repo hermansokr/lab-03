@@ -95,8 +95,11 @@ head(staff_long, n=100)
 ## Exercise 3
 
 ```{r dot-plot}
-# Write your code for Exercise 3 here
-
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent, 
+                     colour = faculty_type)) +
+  geom_point()
 
 
 ```
