@@ -32,7 +32,7 @@ The data is presented in an unappealing manner. It is uneasy to read, messy and 
 knitr::include_graphics("img/rose-pop-density-total-area-bw.jpg")
 ```
 
-There's no indication nor colours to clearify the data to the people. It does not make sense. 
+There's no indication nor colours to clarify the data to the people. It does not make sense. 
 
 
 
@@ -95,8 +95,11 @@ head(staff_long, n=100)
 ## Exercise 3
 
 ```{r dot-plot}
-# Write your code for Exercise 3 here
-
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent, 
+                     colour = faculty_type)) +
+  geom_point()
 
 
 ```
@@ -104,7 +107,14 @@ head(staff_long, n=100)
 ## Exercise 4
 
 ```{r bad-line-plot}
-# Write your code for Exercise 4 here
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent, 
+                     colour = faculty_type)) +
+  geom_line()
+
+
+```
 
 
 
