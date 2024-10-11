@@ -21,8 +21,7 @@ library(ggplot2)
 knitr::include_graphics("img/Speaking-the-world.jpg")
 ```
 
-_Write your comments about image 1 below_
-
+The data is presented in an unappealing manner. It is uneasy to read, messy and mathematically wrong. There are no names for the axes (and no axes). The speech bubbles are terrible. The image does not respect the people.
 
 
 
@@ -33,8 +32,7 @@ _Write your comments about image 1 below_
 knitr::include_graphics("img/rose-pop-density-total-area-bw.jpg")
 ```
 
-_Write your comments about image 2 below_
-
+There's no indication nor colours to clarify the data to the people. It does not make sense. 
 
 
 
@@ -44,9 +42,7 @@ _Write your comments about image 2 below_
 knitr::include_graphics("img/life-expectancy-rule-of-law.png")
 ```
 
-_Write your comments about image 3 below_
-
-
+It is very ugly and hard to understand.
 
 
 ## Image 4
@@ -55,8 +51,7 @@ _Write your comments about image 3 below_
 knitr::include_graphics("img/global-income-dist.PNG")
 ```
 
-_Write your comments about image 4 below_
-
+The data is categorised in an unnatural manner that makes the data hard to understand.
 
 
 
